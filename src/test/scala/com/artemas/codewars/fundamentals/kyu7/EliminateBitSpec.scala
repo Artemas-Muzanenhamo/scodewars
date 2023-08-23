@@ -6,7 +6,7 @@ class EliminateBitSpec extends org.scalatest.flatspec.AnyFlatSpec {
       ("11010101010101", 255),
       ("111", 7),
       ("1000000", 1),
-      ("000", 00),
+      ("000", 0),
     )
 
     testCases.foreach {
